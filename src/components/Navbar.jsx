@@ -51,13 +51,11 @@ function Navbar() {
 					</div>
 				</div>
 			</nav>
-			<div
-				className={` space-y-4 px-4 pt-20 pb-5 bg-secondary text-xl ${
-					ismenuopen ? " block fixed top-0 right-0 left-0" : " hidden"
-				}`}
-			>
-				<li className="block hover:text-gray-500">Home</li>
+			<div className={`space-y-4 px-4 pt-20 pb-5 bg-secondary text-xl ${ismenuopen ? " block fixed top-0 right-0 left-0" : " hidden"}`}>
+				<ul>
+					<li className="block hover:text-gray-500">Home</li>
 				<li className="block hover:text-gray-500">About</li>
+				</ul>
 
 				<button className=" hover:bg-secondary py-2 px-4 transition-all duration-500 rounded hover:text-white bg-indigo-600">
 					Logout

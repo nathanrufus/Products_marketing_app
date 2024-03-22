@@ -4,9 +4,10 @@ function Crops() {
 	return (
 		<div className=" md:px-12 p-4 max-w-screen-2xl mx-auto mt-20">
 			<div>
-				<h1 className=" text-primary mb-5 text-xl hover:text-secondary">
-					Crops
-				</h1>
+					<h1 className=" text-primary mb-5 text-xl hover:text-secondary">
+						Crops
+					</h1>
+
 				<div className=" sm:flex-grow flex overflow-scroll space-x-9 ">
 					<div className=" flex-shrink-0 w-full max-w-60  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 						<img src={logo} alt="" className=" w-full max-w-60 rounded-lg " />

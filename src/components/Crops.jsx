@@ -1,6 +1,11 @@
 import logo from "./assets/logo.jpg"
+import { useNavigate } from "react-router-dom";
 
 function Crops() {
+	const navigate=useNavigate()
+	const detail =()=>{
+		navigate('/details')
+	}
 	return (
 		<div className=" md:px-12 p-4 max-w-screen-2xl mx-auto mt-20">
 			<div>
@@ -23,7 +28,7 @@ function Crops() {
 								</h3>
 							</div>
 
-							<button className="bg-secondary py-2 px-4 transition-all duration-500 rounded hover:text-white hover:bg-indigo-600  focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+							<button onClick={detail} className="bg-secondary py-2 px-4 transition-all duration-500 rounded hover:text-white hover:bg-indigo-600  focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 								Details
 							</button>
 						</div>

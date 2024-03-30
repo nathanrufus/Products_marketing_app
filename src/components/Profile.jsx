@@ -20,7 +20,7 @@ function Profile() {
                                 Maize
                             </h3>
                         </div>
-                        <div className=" flex items-center justify-between mt-3 space-x-4">
+                        <div className=" flex items-center justify-between mt-3 space-x-5">
                             <button className="bg-secondary py-2 px-4 transition-all duration-500 rounded hover:text-white hover:bg-indigo-600  focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Edit
                             </button>
